@@ -1,0 +1,30 @@
+.text-label {
+  display: flex;
+  flex-direction: column;
+}
+.text-label p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 109%;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.search-field {
+  display: flex;
+}
+.search-input {
+  width: 374px;
+  height: 48px;
+  border: 1px solid #000000;
+  outline: none;
+  margin-right: 30px;
+}
+.search-btn {
+  width: 120px;
+  height: 48px;
+  background: #833ae0;
+  border: none;
+  color: white;
+}
